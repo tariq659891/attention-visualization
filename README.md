@@ -71,7 +71,7 @@ cd attention-visualization
 pip install -r requirements.txt
 
 # Run the animation generation
-python multi_head_attention.py
+manim -pqh multi_head_attention.py MultiHeadAttentionScene
 
 # Add audio and subtitles
 python audio_on_video.py
